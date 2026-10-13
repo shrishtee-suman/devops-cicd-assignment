@@ -1,0 +1,60 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+  color: #172033;
+  background: linear-gradient(135deg, #e8efff, #f8faff);
+}
+
+.container {
+  width: 100%;
+  max-width: 650px;
+  padding: 42px;
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 12px 40px rgba(25, 45, 90, 0.12);
+}
+
+.eyebrow {
+  color: #435bd4;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 12px;
+}
+
+h1 {
+  font-size: clamp(30px, 5vw, 44px);
+  line-height: 1.15;
+}
+
+.subtitle {
+  color: #647087;
+  line-height: 1.7;
+}
+
+.status-card {
+  margin-top: 28px;
+  padding: 20px;
+  border-radius: 12px;
+  background: #f3f6fc;
+  line-height: 1.5;
+}
+
+.success {
+  color: #16834a;
+  font-weight: bold;
+}
+
+.footer {
+  margin-top: 28px;
+  font-size: 13px;
+  color: #647087;
+}
